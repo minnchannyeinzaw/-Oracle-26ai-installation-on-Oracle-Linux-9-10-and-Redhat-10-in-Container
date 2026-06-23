@@ -49,7 +49,7 @@ Two RPMs are required for every build: the **preinstallation RPM** (creates the 
 | Package | Direct link |
 |---|---|
 | Preinstall RPM x86_64 | `https://yum.oracle.com/repo/OracleLinux/OL9/appstream/x86_64/getPackage/oracle-ai-database-preinstall-26ai-1.0-1.el9.x86_64.rpm` |
-| Preinstall RPM — ARM64 | `https://yum.oracle.com/repo/OracleLinux/OL9/appstream/aarch64/getPackage/oracle-ai-database-preinstall-26ai-1.0-2.el9.aarch64.rpm` |
+| Preinstall RPM ARM64 | `https://yum.oracle.com/repo/OracleLinux/OL9/appstream/aarch64/getPackage/oracle-ai-database-preinstall-26ai-1.0-2.el9.aarch64.rpm` |
 | Oracle AI Database 26ai **Free** RPM (all platforms) | https://www.oracle.com/database/technologies/free-downloads.html |
 | Oracle AI Database 26ai **Enterprise Edition** RPM (requires Oracle account) | https://www.oracle.com/database/technologies/oracle26ai-linux-downloads.html |
 | Official RPM installation guide (Oracle Docs) | https://docs.oracle.com/en/database/oracle/oracle-database/26/ladbi/running-rpm-packages-to-install-oracle-database.html |
