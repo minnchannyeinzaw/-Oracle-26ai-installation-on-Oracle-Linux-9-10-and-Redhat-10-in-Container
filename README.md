@@ -1,1 +1,1 @@
-# -Oracle-26ai-installation-on-Oracle-Linux-9-10-and-Redhat-10-in-Container
+# Oracle 26ai installation on Oracle- Linux 9, 10 and Redhat 10 in Container
