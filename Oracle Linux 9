@@ -1,4 +1,4 @@
-ROM oraclelinux:9
+FROM oraclelinux:9
 
 # 1. ROOT OPERATIONS DURING BUILD
 # ================================
