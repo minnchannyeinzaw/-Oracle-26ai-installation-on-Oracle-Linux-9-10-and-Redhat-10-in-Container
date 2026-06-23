@@ -1,0 +1,21 @@
+# For Oracle Linux 9, 10
+docker build -t oracle-26ai:latest .
+
+# For Redhat 9, 10
+docker build --build-arg ID=${YOUR REDHAT ID} --build-arg KEY=${YOUR REDHAT PASSWORD} -t oracle-26ai:latest .
+
+docker run -d --name ol9-oracle-26ai \
+  -e ORACLE_PWD='ORACLE26AI' \
+  -p 1521:1521 -p 5500:5500 \
+ oracle-9-26ai:latest
+ 
+ docker run -d \
+  --name oracle26ai-free \
+  -e ORACLE_PWD='ORACLE26AI' \
+  -p 1521:1521 \
+  -p 5500:5500 \
+  -v oracle_data:/opt/oracle/oradata \
+  -v oracle_fra:/opt/oracle/fast_recovery_area \
+  oracle-26ai:latest
+
+select name, open_mode from v$pdbs;
